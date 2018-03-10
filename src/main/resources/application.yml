@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dbgirl
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update # create: drop every startup, update: if no exist, create, else keep it
+      use-new-id-generator-mappings: false  # by default, it'll create hibernate-sequence table, here we use mysql's inner's
+    show-sql: true

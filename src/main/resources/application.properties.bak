@@ -1,0 +1,2 @@
+server.port=8081
+server.servlet.context-path=/girl  # server.context-path is deprecated, so use this one instead, by lidg

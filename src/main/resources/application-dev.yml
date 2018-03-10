@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /girl
+
+# 将配置作为一个类对应 
+girl:
+  cupSize: B
+  age: 18
+  #content: "cupSize: ${cupSize}, age: ${age}"
